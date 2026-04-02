@@ -651,24 +651,26 @@
           </div>
         </div>
       </div>
-      <form class="contact-form" id="contactForm">
+      <form class="contact-form" id="contactForm" action="https://formspree.io/f/xwpkqovj" method="POST">
+        <input type="hidden" name="_subject" value="[KtechAI] Yêu cầu tư vấn mới" />
+        <input type="hidden" name="_replyto" id="replyToField" />
         <div class="form-row">
           <div class="form-group">
             <label data-i18n="formName">Họ tên *</label>
-            <input type="text" data-i18n-ph="formNamePh" placeholder="Nguyễn Văn A" required />
+            <input type="text" name="name" data-i18n-ph="formNamePh" placeholder="Nguyễn Văn A" required />
           </div>
           <div class="form-group">
             <label data-i18n="formEmail">Email *</label>
-            <input type="email" data-i18n-ph="formEmailPh" placeholder="email@company.com" required />
+            <input type="email" name="email" id="emailInput" data-i18n-ph="formEmailPh" placeholder="email@company.com" required />
           </div>
         </div>
         <div class="form-group">
           <label data-i18n="formPhone">Số điện thoại</label>
-          <input type="tel" data-i18n-ph="formPhonePh" placeholder="0909 xxx xxx" />
+          <input type="tel" name="phone" data-i18n-ph="formPhonePh" placeholder="0909 xxx xxx" />
         </div>
         <div class="form-group">
           <label data-i18n="formService">Dịch vụ quan tâm</label>
-          <select>
+          <select name="service">
             <option value="" data-i18n="formServiceDefault">Chọn dịch vụ</option>
             <option>Web Application</option>
             <option>Mobile App</option>
@@ -680,14 +682,17 @@
         </div>
         <div class="form-group">
           <label data-i18n="formDesc">Mô tả dự án *</label>
-          <textarea rows="4" data-i18n-ph="formDescPh" placeholder="Mô tả ngắn về dự án, yêu cầu, timeline..." required></textarea>
+          <textarea rows="4" name="message" data-i18n-ph="formDescPh" placeholder="Mô tả ngắn về dự án, yêu cầu, timeline..." required></textarea>
         </div>
-        <button type="submit" class="btn btn-primary btn-full">
+        <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
           <span data-i18n="formSubmit">Gửi yêu cầu tư vấn</span>
           <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z"/></svg>
         </button>
         <div class="form-success" id="formSuccess" data-i18n="formSuccess">
           Cảm ơn bạn! Chúng tôi sẽ liên hệ trong vòng 24 giờ.
+        </div>
+        <div class="form-error" id="formError">
+          Có lỗi xảy ra. Vui lòng thử lại hoặc liên hệ qua email trực tiếp.
         </div>
       </form>
     </div>

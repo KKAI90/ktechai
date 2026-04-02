@@ -202,18 +202,45 @@ if (items.length && dotsContainer) {
 // ===== CONTACT FORM =====
 const form = document.getElementById('contactForm');
 const formSuccess = document.getElementById('formSuccess');
-form?.addEventListener('submit', (e) => {
+const formError = document.getElementById('formError');
+
+// sync email to _replyto field
+document.getElementById('emailInput')?.addEventListener('input', (e) => {
+  const replyTo = document.getElementById('replyToField');
+  if (replyTo) replyTo.value = e.target.value;
+});
+
+form?.addEventListener('submit', async (e) => {
   e.preventDefault();
-  const btn = form.querySelector('button[type="submit"]');
-  btn.textContent = 'Đang gửi...';
+  const btn = document.getElementById('submitBtn');
+  const btnSpan = btn.querySelector('span');
+  const originalText = btnSpan.textContent;
+
   btn.disabled = true;
-  setTimeout(() => {
-    formSuccess.classList.add('visible');
-    form.reset();
-    btn.textContent = 'Gửi yêu cầu tư vấn';
+  btnSpan.textContent = 'Đang gửi...';
+  formSuccess.classList.remove('visible');
+  formError.classList.remove('visible');
+
+  try {
+    const res = await fetch(form.action, {
+      method: 'POST',
+      body: new FormData(form),
+      headers: { Accept: 'application/json' }
+    });
+
+    if (res.ok) {
+      formSuccess.classList.add('visible');
+      form.reset();
+      setTimeout(() => formSuccess.classList.remove('visible'), 6000);
+    } else {
+      formError.classList.add('visible');
+    }
+  } catch {
+    formError.classList.add('visible');
+  } finally {
     btn.disabled = false;
-    setTimeout(() => formSuccess.classList.remove('visible'), 5000);
-  }, 1200);
+    btnSpan.textContent = originalText;
+  }
 });
 
 // ===== BACK TO TOP =====

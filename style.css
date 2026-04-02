@@ -1171,6 +1171,19 @@ button { cursor: pointer; font-family: inherit; border: none; background: none; 
 }
 .form-success.visible { display: block; }
 
+.form-error {
+  display: none;
+  background: rgba(239,68,68,0.1);
+  border: 1px solid rgba(239,68,68,0.3);
+  color: #f87171;
+  padding: 12px 20px;
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  text-align: center;
+  margin-top: 12px;
+}
+.form-error.visible { display: block; }
+
 /* ===== FOOTER ===== */
 .footer {
   background: var(--bg-2);
