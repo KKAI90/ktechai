@@ -228,7 +228,7 @@ form?.addEventListener('submit', async (e) => {
       headers: { Accept: 'application/json' }
     });
 
-    if (res.ok) {
+    if (res.ok || res.redirected) {
       formSuccess.classList.add('visible');
       form.reset();
       setTimeout(() => formSuccess.classList.remove('visible'), 6000);
@@ -236,7 +236,8 @@ form?.addEventListener('submit', async (e) => {
       formError.classList.add('visible');
     }
   } catch {
-    formError.classList.add('visible');
+    // fallback: submit normally if fetch blocked
+    form.submit();
   } finally {
     btn.disabled = false;
     btnSpan.textContent = originalText;
