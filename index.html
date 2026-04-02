@@ -376,18 +376,49 @@
   <div class="container">
     <div class="section-header">
       <div class="section-badge" data-i18n="pricingBadge">Bảng giá</div>
-      <h2 class="section-title" data-i18n="pricingTitle">Chi phí minh bạch, hợp lý</h2>
-      <p class="section-sub" data-i18n="pricingSub">Báo giá rõ ràng từ đầu, không phát sinh chi phí ẩn</p>
+      <h2 class="section-title" data-i18n="pricingTitle">Giải pháp phù hợp mọi quy mô</h2>
+      <p class="section-sub" data-i18n="pricingSub">Mỗi dự án là duy nhất — chúng tôi estimate chính xác sau khi hiểu rõ yêu cầu của bạn</p>
     </div>
-    <div class="pricing-tabs">
-      <button class="price-tab active" data-type="project" data-i18n="tabProject">Theo dự án</button>
-      <button class="price-tab" data-type="monthly" data-i18n="tabMonthly">Thuê theo tháng</button>
+
+    <!-- Pricing value props -->
+    <div class="pricing-values">
+      <div class="pricing-value-item">
+        <div class="pv-icon">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="pv-text">
+          <strong data-i18n="pvTitle1">Báo giá minh bạch</strong>
+          <span data-i18n="pvDesc1">Estimate chi tiết theo từng hạng mục, không phát sinh ẩn</span>
+        </div>
+      </div>
+      <div class="pricing-value-item">
+        <div class="pv-icon">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        </div>
+        <div class="pv-text">
+          <strong data-i18n="pvTitle2">Phản hồi trong 24h</strong>
+          <span data-i18n="pvDesc2">Gửi yêu cầu, nhận bản estimate sơ bộ trong vòng 1 ngày làm việc</span>
+        </div>
+      </div>
+      <div class="pricing-value-item">
+        <div class="pv-icon">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        </div>
+        <div class="pv-text">
+          <strong data-i18n="pvTitle3">Thanh toán linh hoạt</strong>
+          <span data-i18n="pvDesc3">Chia milestone theo tiến độ dự án, không thanh toán toàn bộ trước</span>
+        </div>
+      </div>
     </div>
-    <div class="pricing-grid" id="pricingGrid">
+
+    <!-- Package cards -->
+    <div class="pricing-grid">
 
       <div class="price-card">
+        <div class="price-card-icon" style="background: linear-gradient(135deg,rgba(99,102,241,0.2),rgba(99,102,241,0.05))">
+          <svg viewBox="0 0 40 40" fill="none"><rect x="6" y="10" width="28" height="20" rx="3" stroke="#818cf8" stroke-width="2"/><path d="M13 17h14M13 22h8" stroke="#818cf8" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
         <div class="price-label" data-i18n="pr1Label">Starter</div>
-        <div class="price-amount"><span class="price-from" data-i18n="priceFrom">Từ</span> <span class="price-num">15</span><span class="price-unit" data-i18n="priceUnit">triệu</span></div>
         <p class="price-desc" data-i18n-html="pr1Desc">Phù hợp startup &amp; doanh nghiệp nhỏ cần giải pháp cơ bản</p>
         <ul class="price-features">
           <li><span class="check">✓</span> <span data-i18n="pr1f1">Website giới thiệu / Landing page</span></li>
@@ -397,13 +428,18 @@
           <li><span class="check">✓</span> <span data-i18n="pr1f5">Bảo trì 3 tháng</span></li>
           <li class="unavail"><span>✗</span> <span data-i18n="pr1f6">Tích hợp AI</span></li>
         </ul>
-        <a href="#contact" class="btn btn-outline" data-i18n="priceCta1">Tư vấn ngay</a>
+        <div class="price-cta-wrap">
+          <div class="price-estimate-tag" data-i18n="estimateTag">Nhận báo giá miễn phí</div>
+          <a href="#contact" class="btn btn-outline" data-i18n="priceCta1">Tư vấn ngay</a>
+        </div>
       </div>
 
       <div class="price-card popular">
         <div class="price-popular-badge" data-i18n="popularBadge">Phổ biến nhất</div>
+        <div class="price-card-icon" style="background: linear-gradient(135deg,rgba(99,102,241,0.3),rgba(14,165,233,0.15))">
+          <svg viewBox="0 0 40 40" fill="none"><rect x="4" y="8" width="32" height="24" rx="3" stroke="#818cf8" stroke-width="2"/><path d="M4 16h32M12 8v8M28 8v8" stroke="#818cf8" stroke-width="2" stroke-linecap="round"/><circle cx="20" cy="26" r="3" stroke="#818cf8" stroke-width="2"/></svg>
+        </div>
         <div class="price-label" data-i18n="pr2Label">Professional</div>
-        <div class="price-amount"><span class="price-from" data-i18n="priceFrom">Từ</span> <span class="price-num">50</span><span class="price-unit" data-i18n="priceUnit">triệu</span></div>
         <p class="price-desc" data-i18n="pr2Desc">Phù hợp doanh nghiệp vừa cần web app hoặc mobile app hoàn chỉnh</p>
         <ul class="price-features">
           <li><span class="check">✓</span> <span data-i18n="pr2f1">Web App / Mobile App full-feature</span></li>
@@ -413,12 +449,17 @@
           <li><span class="check">✓</span> <span data-i18n="pr2f5">Bảo trì 6 tháng</span></li>
           <li><span class="check">✓</span> <span data-i18n="pr2f6">Tích hợp AI cơ bản</span></li>
         </ul>
-        <a href="#contact" class="btn btn-primary" data-i18n="priceCta2">Tư vấn ngay</a>
+        <div class="price-cta-wrap">
+          <div class="price-estimate-tag" data-i18n="estimateTag">Nhận báo giá miễn phí</div>
+          <a href="#contact" class="btn btn-primary" data-i18n="priceCta2">Tư vấn ngay</a>
+        </div>
       </div>
 
       <div class="price-card">
+        <div class="price-card-icon" style="background: linear-gradient(135deg,rgba(16,185,129,0.2),rgba(14,165,233,0.08))">
+          <svg viewBox="0 0 40 40" fill="none"><path d="M8 30V16l12-8 12 8v14" stroke="#34d399" stroke-width="2" stroke-linejoin="round"/><rect x="14" y="22" width="12" height="8" rx="1" stroke="#34d399" stroke-width="2"/><path d="M20 22v8" stroke="#34d399" stroke-width="2"/></svg>
+        </div>
         <div class="price-label" data-i18n="pr3Label">Enterprise</div>
-        <div class="price-amount"><span class="price-from" data-i18n="priceFrom">Từ</span> <span class="price-num">150</span><span class="price-unit" data-i18n="priceUnit">triệu</span></div>
         <p class="price-desc" data-i18n="pr3Desc">Hệ thống lớn, ERP, SaaS platform, giải pháp AI toàn diện</p>
         <ul class="price-features">
           <li><span class="check">✓</span> <span data-i18n="pr3f1">Hệ thống enterprise phức tạp</span></li>
@@ -428,13 +469,26 @@
           <li><span class="check">✓</span> <span data-i18n="pr3f5">Bảo trì 12 tháng</span></li>
           <li><span class="check">✓</span> <span data-i18n="pr3f6">Dedicated support team</span></li>
         </ul>
-        <a href="#contact" class="btn btn-outline" data-i18n="priceCta3">Liên hệ báo giá</a>
+        <div class="price-cta-wrap">
+          <div class="price-estimate-tag" data-i18n="estimateTag">Nhận báo giá miễn phí</div>
+          <a href="#contact" class="btn btn-outline" data-i18n="priceCta3">Liên hệ báo giá</a>
+        </div>
       </div>
 
     </div>
-    <div class="pricing-note">
-      <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"/></svg>
-      <span data-i18n="pricingNote">Giá trên là tham khảo. Liên hệ để nhận báo giá chính xác dựa trên yêu cầu cụ thể của bạn.</span>
+
+    <!-- Bottom estimate banner -->
+    <div class="estimate-banner">
+      <div class="estimate-banner-content">
+        <div class="estimate-icon">
+          <svg viewBox="0 0 32 32" fill="none"><path d="M16 4l2.4 7.4H26l-6.2 4.5 2.4 7.4L16 19l-6.2 4.4 2.4-7.4L6 11.4h7.6z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+        </div>
+        <div>
+          <strong data-i18n="estimateBannerTitle">Chi phí được xác định sau khi khảo sát thực tế</strong>
+          <p data-i18n="estimateBannerDesc">Mỗi dự án có yêu cầu và độ phức tạp khác nhau. Chúng tôi phân tích kỹ và đưa ra con số chính xác — không ước đoán.</p>
+        </div>
+      </div>
+      <a href="#contact" class="btn btn-primary" data-i18n="estimateBannerCta">Nhận estimate miễn phí</a>
     </div>
   </div>
 </section>
