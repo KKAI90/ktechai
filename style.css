@@ -2,10 +2,10 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --primary: #6366f1;
-  --primary-light: #818cf8;
-  --primary-dark: #4f46e5;
-  --accent: #0ea5e9;
+  --primary: #EA580C;
+  --primary-light: #FB923C;
+  --primary-dark: #C2410C;
+  --accent: #FDBA74;
   --success: #10b981;
   --warn: #f59e0b;
   --bg: #0a0a0f;
@@ -21,7 +21,7 @@
   --radius-sm: 10px;
   --radius-lg: 24px;
   --shadow: 0 4px 24px rgba(0,0,0,0.4);
-  --shadow-glow: 0 0 40px rgba(99,102,241,0.2);
+  --shadow-glow: 0 0 40px rgba(234,88,12,0.25);
   --transition: 0.3s cubic-bezier(0.4,0,0.2,1);
 }
 
@@ -163,7 +163,7 @@ button { cursor: pointer; font-family: inherit; border: none; background: none; 
   letter-spacing: -0.02em;
 }
 .logo-img {
-  height: 36px;
+  height: 48px;
   width: auto;
   display: block;
 }
