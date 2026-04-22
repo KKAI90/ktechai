@@ -162,6 +162,11 @@ button { cursor: pointer; font-family: inherit; border: none; background: none; 
   font-weight: 900;
   letter-spacing: -0.02em;
 }
+.logo-img {
+  height: 36px;
+  width: auto;
+  display: block;
+}
 .logo-k { color: var(--primary-light); }
 .logo-ai {
   background: linear-gradient(135deg, var(--primary-light), var(--accent));

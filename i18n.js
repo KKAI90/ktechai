@@ -1,8 +1,8 @@
 const translations = {
   vi: {
     // Meta
-    pageTitle: 'KtechAI – Giải pháp Công nghệ Thông minh',
-    pageDesc: 'KtechAI cung cấp dịch vụ phát triển Web, App, Hệ thống doanh nghiệp với chi phí outsource hợp lý, chất lượng quốc tế.',
+    pageTitle: 'Pegasus LMK – Giải pháp Công nghệ Thông minh',
+    pageDesc: 'Pegasus LMK cung cấp dịch vụ phát triển Web, App, Hệ thống doanh nghiệp với chi phí outsource hợp lý, chất lượng quốc tế.',
 
     // Nav
     navServices: 'Dịch vụ',
@@ -16,7 +16,7 @@ const translations = {
     // Hero
     heroBadge: 'Đối tác công nghệ tin cậy',
     heroTitle: 'Chuyển đổi số <br/><span class="gradient-text">thông minh &amp; hiệu quả</span>',
-    heroDesc: 'KtechAI xây dựng Website, Ứng dụng di động &amp; Hệ thống doanh nghiệp tích hợp AI — chất lượng quốc tế, chi phí outsource tối ưu cho thị trường Việt Nam.',
+    heroDesc: 'Pegasus LMK xây dựng Website, Ứng dụng di động &amp; Hệ thống doanh nghiệp tích hợp AI — chất lượng quốc tế, chi phí outsource tối ưu cho thị trường Việt Nam.',
     heroCta1: 'Bắt đầu dự án',
     heroCta2: 'Xem portfolio',
     heroStat1: 'Dự án hoàn thành',
@@ -28,7 +28,7 @@ const translations = {
     // Services
     servicesBadge: 'Dịch vụ',
     servicesTitle: 'Chúng tôi làm được gì?',
-    servicesSub: 'Từ ý tưởng đến sản phẩm hoàn chỉnh — KtechAI đồng hành toàn diện',
+    servicesSub: 'Từ ý tưởng đến sản phẩm hoàn chỉnh — Pegasus LMK đồng hành toàn diện',
     svc1Title: 'Web Application',
     svc1Desc: 'Website doanh nghiệp, Landing page, E-commerce, CMS, SaaS platform tối ưu SEO &amp; hiệu năng cao.',
     svc2Title: 'Mobile App',
@@ -44,7 +44,7 @@ const translations = {
 
     // Strengths
     strengthsBadge: 'Thế mạnh',
-    strengthsTitle: 'Tại sao chọn KtechAI?',
+    strengthsTitle: 'Tại sao chọn Pegasus LMK?',
     strengthsSub: 'Chúng tôi không chỉ viết code — chúng tôi xây dựng giải pháp',
     str1Title: 'Chi phí tối ưu, chất lượng cao',
     str1Desc: 'Mô hình outsource linh hoạt, tiết kiệm 40-60% so với thuê đội ngũ nội bộ, không giảm chất lượng.',
@@ -121,7 +121,7 @@ const translations = {
 
     // Team
     teamBadge: 'Đội ngũ',
-    teamTitle: 'Những người đứng sau KtechAI',
+    teamTitle: 'Những người đứng sau Pegasus LMK',
     teamSub: 'Senior developer, designer và AI engineer với kinh nghiệm thực chiến',
     t1Role: 'CEO &amp; Lead Architect', t1Desc: '10+ năm kinh nghiệm, chuyên gia hệ thống phân tán &amp; microservices',
     t2Role: 'CTO &amp; AI Lead', t2Desc: 'Chuyên gia AI/ML, đã triển khai giải pháp AI cho 20+ doanh nghiệp lớn',
@@ -131,13 +131,13 @@ const translations = {
     // Testimonials
     testiBadge: 'Khách hàng nói gì',
     testiTitle: 'Đánh giá từ khách hàng',
-    testi1: '"KtechAI hoàn thành dự án ERP trước deadline 1 tuần, chất lượng vượt mong đợi. Đội ngũ rất chuyên nghiệp và phản hồi nhanh."',
+    testi1: '"Pegasus LMK hoàn thành dự án ERP trước deadline 1 tuần, chất lượng vượt mong đợi. Đội ngũ rất chuyên nghiệp và phản hồi nhanh."',
     testi1Name: 'Văn Thành', testi1Role: 'CEO - Công ty Sản xuất ABC',
-    testi2: '"App mobile của chúng tôi có 50,000 downloads chỉ sau 2 tháng ra mắt. KtechAI không chỉ code tốt mà còn tư vấn chiến lược rất hay."',
+    testi2: '"App mobile của chúng tôi có 50,000 downloads chỉ sau 2 tháng ra mắt. Pegasus LMK không chỉ code tốt mà còn tư vấn chiến lược rất hay."',
     testi2Name: 'Minh Ngọc', testi2Role: 'Founder - Startup Fintech XYZ',
-    testi3: '"Chi phí outsource tại KtechAI tiết kiệm hơn 50% so với tuyển dụng nội bộ, mà chất lượng không thua kém gì. Rất đáng tin cậy."',
+    testi3: '"Chi phí outsource tại Pegasus LMK tiết kiệm hơn 50% so với tuyển dụng nội bộ, mà chất lượng không thua kém gì. Rất đáng tin cậy."',
     testi3Name: 'Bảo Linh', testi3Role: 'CTO - Tập đoàn Thương mại DEF',
-    testi4: '"Chatbot AI do KtechAI xây dựng giảm 70% khối lượng công việc cho team CSKH. ROI thu hồi chỉ sau 3 tháng sử dụng."',
+    testi4: '"Chatbot AI do Pegasus LMK xây dựng giảm 70% khối lượng công việc cho team CSKH. ROI thu hồi chỉ sau 3 tháng sử dụng."',
     testi4Name: 'Kim Dung', testi4Role: 'Director - E-commerce GHI',
 
     // Contact
@@ -147,7 +147,7 @@ const translations = {
     contactEmail: 'Email',
     contactPhone: 'Hotline',
     contactAddress: 'Văn phòng',
-    contactAddressVal: 'Quận 1, TP. Hồ Chí Minh',
+    contactAddressVal: 'Số 12 đường số 5, KDC Đông Hòa 1, KP. Đông A, P. Đông Hòa, TP.HCM',
     formName: 'Họ tên *', formNamePh: 'Nguyễn Văn A',
     formEmail: 'Email *', formEmailPh: 'email@company.com',
     formPhone: 'Số điện thoại', formPhonePh: '0909 xxx xxx',
@@ -163,12 +163,12 @@ const translations = {
     footerAbout: 'Về chúng tôi', footerCareer: 'Tuyển dụng', footerProcess: 'Quy trình',
     footerPrice: 'Bảng giá', footerConsult: 'Tư vấn', footerFaq: 'FAQ',
     footerPrivacy: 'Chính sách bảo mật', footerTerms: 'Điều khoản sử dụng',
-    footerCopy: '© 2025 KtechAI. All rights reserved.',
+    footerCopy: '© 2026 CÔNG TY TNHH PEGASUS LMK SOFTWARE. All rights reserved.',
   },
 
   en: {
-    pageTitle: 'KtechAI – Smart Technology Solutions',
-    pageDesc: 'KtechAI provides Web, App, Enterprise System development services with reasonable outsource costs and international quality.',
+    pageTitle: 'Pegasus LMK – Smart Technology Solutions',
+    pageDesc: 'Pegasus LMK provides Web, App, Enterprise System development services with reasonable outsource costs and international quality.',
 
     navServices: 'Services',
     navStrengths: 'Why Us',
@@ -180,7 +180,7 @@ const translations = {
 
     heroBadge: 'Your trusted tech partner',
     heroTitle: 'Digital Transformation <br/><span class="gradient-text">smart &amp; efficient</span>',
-    heroDesc: 'KtechAI builds Websites, Mobile Apps &amp; AI-integrated Enterprise Systems — international quality, optimized outsource cost for the global market.',
+    heroDesc: 'Pegasus LMK builds Websites, Mobile Apps &amp; AI-integrated Enterprise Systems — international quality, optimized outsource cost for the global market.',
     heroCta1: 'Start a Project',
     heroCta2: 'View Portfolio',
     heroStat1: 'Projects Completed',
@@ -191,7 +191,7 @@ const translations = {
 
     servicesBadge: 'Services',
     servicesTitle: 'What can we do?',
-    servicesSub: 'From idea to finished product — KtechAI is your end-to-end partner',
+    servicesSub: 'From idea to finished product — Pegasus LMK is your end-to-end partner',
     svc1Title: 'Web Application',
     svc1Desc: 'Corporate websites, Landing pages, E-commerce, CMS, SaaS platforms — SEO optimized &amp; high performance.',
     svc2Title: 'Mobile App',
@@ -206,7 +206,7 @@ const translations = {
     svc6Desc: 'Modern interface design, optimized user experience, prototypes &amp; design systems.',
 
     strengthsBadge: 'Why Us',
-    strengthsTitle: 'Why choose KtechAI?',
+    strengthsTitle: 'Why choose Pegasus LMK?',
     strengthsSub: "We don't just write code — we build solutions",
     str1Title: 'Optimal cost, high quality',
     str1Desc: 'Flexible outsource model, saving 40-60% compared to an in-house team without sacrificing quality.',
@@ -279,7 +279,7 @@ const translations = {
     ps5Title: 'Delivery &amp; Support', ps5Desc: 'Production deployment, operational training, long-term maintenance &amp; upgrades',
 
     teamBadge: 'Team',
-    teamTitle: 'The people behind KtechAI',
+    teamTitle: 'The people behind Pegasus LMK',
     teamSub: 'Senior developers, designers and AI engineers with real-world experience',
     t1Role: 'CEO &amp; Lead Architect', t1Desc: '10+ years experience, expert in distributed systems &amp; microservices',
     t2Role: 'CTO &amp; AI Lead', t2Desc: 'AI/ML specialist who has deployed AI solutions for 20+ major enterprises',
@@ -288,13 +288,13 @@ const translations = {
 
     testiBadge: 'Testimonials',
     testiTitle: 'What our clients say',
-    testi1: '"KtechAI delivered the ERP project 1 week ahead of deadline, with quality exceeding expectations. Very professional and responsive team."',
+    testi1: '"Pegasus LMK delivered the ERP project 1 week ahead of deadline, with quality exceeding expectations. Very professional and responsive team."',
     testi1Name: 'Van Thanh', testi1Role: 'CEO - ABC Manufacturing Co.',
-    testi2: '"Our mobile app reached 50,000 downloads within 2 months of launch. KtechAI not only writes great code but also gives excellent strategic advice."',
+    testi2: '"Our mobile app reached 50,000 downloads within 2 months of launch. Pegasus LMK not only writes great code but also gives excellent strategic advice."',
     testi2Name: 'Minh Ngoc', testi2Role: 'Founder - XYZ Fintech Startup',
-    testi3: '"Outsourcing to KtechAI saved us over 50% compared to in-house hiring, with no drop in quality. Highly reliable."',
+    testi3: '"Outsourcing to Pegasus LMK saved us over 50% compared to in-house hiring, with no drop in quality. Highly reliable."',
     testi3Name: 'Bao Linh', testi3Role: 'CTO - DEF Commerce Group',
-    testi4: '"The AI chatbot KtechAI built reduced our customer support workload by 70%. ROI recovered in just 3 months."',
+    testi4: '"The AI chatbot Pegasus LMK built reduced our customer support workload by 70%. ROI recovered in just 3 months."',
     testi4Name: 'Kim Dung', testi4Role: 'Director - GHI E-commerce',
 
     contactBadge: 'Contact',
@@ -303,7 +303,7 @@ const translations = {
     contactEmail: 'Email',
     contactPhone: 'Hotline',
     contactAddress: 'Office',
-    contactAddressVal: 'District 1, Ho Chi Minh City',
+    contactAddressVal: 'No. 12 Street 5, KDC Dong Hoa 1, Dong A, Dong Hoa Ward, Ho Chi Minh City',
     formName: 'Full name *', formNamePh: 'John Doe',
     formEmail: 'Email *', formEmailPh: 'email@company.com',
     formPhone: 'Phone number', formPhonePh: '+84 909 xxx xxx',
@@ -318,12 +318,12 @@ const translations = {
     footerAbout: 'About us', footerCareer: 'Careers', footerProcess: 'Process',
     footerPrice: 'Pricing', footerConsult: 'Consultation', footerFaq: 'FAQ',
     footerPrivacy: 'Privacy Policy', footerTerms: 'Terms of Use',
-    footerCopy: '© 2025 KtechAI. All rights reserved.',
+    footerCopy: '© 2026 CÔNG TY TNHH PEGASUS LMK SOFTWARE. All rights reserved.',
   },
 
   ja: {
-    pageTitle: 'KtechAI – スマートテクノロジーソリューション',
-    pageDesc: 'KtechAIはウェブ、アプリ、エンタープライズシステム開発を国際品質・適正価格で提供します。',
+    pageTitle: 'Pegasus LMK – スマートテクノロジーソリューション',
+    pageDesc: 'Pegasus LMKはウェブ、アプリ、エンタープライズシステム開発を国際品質・適正価格で提供します。',
 
     navServices: 'サービス',
     navStrengths: '強み',
@@ -335,7 +335,7 @@ const translations = {
 
     heroBadge: '信頼できるテクノロジーパートナー',
     heroTitle: 'デジタルトランスフォーメーション <br/><span class="gradient-text">スマート &amp; 効率的</span>',
-    heroDesc: 'KtechAIはウェブサイト、モバイルアプリ、AI統合エンタープライズシステムを構築 — 国際品質、最適化されたアウトソースコスト。',
+    heroDesc: 'Pegasus LMKはウェブサイト、モバイルアプリ、AI統合エンタープライズシステムを構築 — 国際品質、最適化されたアウトソースコスト。',
     heroCta1: 'プロジェクトを始める',
     heroCta2: '実績を見る',
     heroStat1: '完了プロジェクト',
@@ -346,7 +346,7 @@ const translations = {
 
     servicesBadge: 'サービス',
     servicesTitle: '私たちができること',
-    servicesSub: 'アイデアから完成品まで — KtechAIが全面サポート',
+    servicesSub: 'アイデアから完成品まで — Pegasus LMKが全面サポート',
     svc1Title: 'ウェブアプリケーション',
     svc1Desc: '企業サイト、ランディングページ、EC、CMS、SaaSプラットフォーム — SEO最適化＆高パフォーマンス。',
     svc2Title: 'モバイルアプリ',
@@ -361,7 +361,7 @@ const translations = {
     svc6Desc: 'モダンなインターフェース設計、最適化されたユーザー体験、プロトタイプ＆デザインシステム。',
 
     strengthsBadge: '強み',
-    strengthsTitle: 'なぜKtechAIを選ぶのか？',
+    strengthsTitle: 'なぜPegasus LMKを選ぶのか？',
     strengthsSub: '私たちはコードを書くだけでなく — ソリューションを構築します',
     str1Title: '最適なコスト、高品質',
     str1Desc: '柔軟なアウトソースモデルで社内チームより40〜60%節約。品質は妥協しません。',
@@ -434,7 +434,7 @@ const translations = {
     ps5Title: '納品 &amp; サポート', ps5Desc: '本番環境デプロイ、運用トレーニング、長期メンテナンス &amp; アップグレード',
 
     teamBadge: 'チーム',
-    teamTitle: 'KtechAIを支える人々',
+    teamTitle: 'Pegasus LMKを支える人々',
     teamSub: '実戦経験豊富なシニア開発者、デザイナー、AIエンジニア',
     t1Role: 'CEO &amp; リードアーキテクト', t1Desc: '10年以上の経験、分散システム &amp; マイクロサービスの専門家',
     t2Role: 'CTO &amp; AIリード', t2Desc: 'AI/ML専門家、20社以上の大企業にAIソリューションを導入',
@@ -443,13 +443,13 @@ const translations = {
 
     testiBadge: 'お客様の声',
     testiTitle: 'クライアントのレビュー',
-    testi1: '「KtechAIはERPプロジェクトを締切1週間前に完成させ、品質は期待以上でした。非常にプロフェッショナルで対応が速いチームです。」',
+    testi1: '「Pegasus LMKはERPプロジェクトを締切1週間前に完成させ、品質は期待以上でした。非常にプロフェッショナルで対応が速いチームです。」',
     testi1Name: 'ヴァン・タン', testi1Role: 'CEO - ABC製造会社',
-    testi2: '「私たちのモバイルアプリはリリース後2ヶ月で5万ダウンロードを達成。KtechAIはコーディングが優れているだけでなく、戦略的なアドバイスも素晴らしい。」',
+    testi2: '「私たちのモバイルアプリはリリース後2ヶ月で5万ダウンロードを達成。Pegasus LMKはコーディングが優れているだけでなく、戦略的なアドバイスも素晴らしい。」',
     testi2Name: 'ミン・ゴック', testi2Role: 'ファウンダー - XYZフィンテック',
-    testi3: '「KtechAIへのアウトソースは社内採用より50%以上のコスト削減。品質は全く劣りません。非常に信頼できます。」',
+    testi3: '「Pegasus LMKへのアウトソースは社内採用より50%以上のコスト削減。品質は全く劣りません。非常に信頼できます。」',
     testi3Name: 'バオ・リン', testi3Role: 'CTO - DEFコマースグループ',
-    testi4: '「KtechAIが構築したAIチャットボットにより、カスタマーサポートの業務量が70%削減。ROIはわずか3ヶ月で回収できました。」',
+    testi4: '「Pegasus LMKが構築したAIチャットボットにより、カスタマーサポートの業務量が70%削減。ROIはわずか3ヶ月で回収できました。」',
     testi4Name: 'キム・ズン', testi4Role: 'ディレクター - GHI EC',
 
     contactBadge: 'お問い合わせ',
@@ -458,7 +458,7 @@ const translations = {
     contactEmail: 'メール',
     contactPhone: 'ホットライン',
     contactAddress: 'オフィス',
-    contactAddressVal: 'ホーチミン市1区',
+    contactAddressVal: '12番 5号通り、ドンホア1地区、ドンA、ドンホア、ホーチミン市',
     formName: 'お名前 *', formNamePh: '山田 太郎',
     formEmail: 'メール *', formEmailPh: 'email@company.com',
     formPhone: '電話番号', formPhonePh: '+84 909 xxx xxx',
@@ -473,7 +473,7 @@ const translations = {
     footerAbout: '私たちについて', footerCareer: '採用情報', footerProcess: 'プロセス',
     footerPrice: '料金', footerConsult: '相談', footerFaq: 'よくある質問',
     footerPrivacy: 'プライバシーポリシー', footerTerms: '利用規約',
-    footerCopy: '© 2025 KtechAI. All rights reserved.',
+    footerCopy: '© 2026 CÔNG TY TNHH PEGASUS LMK SOFTWARE. All rights reserved.',
   }
 };
 
